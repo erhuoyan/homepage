@@ -8432,15 +8432,20 @@ i {
 
 .beian {
     position: absolute;
+    width: 100%;
     z-index: 900;
     bottom: 0;
-    right: 5px;
     text-align: center;
     color: #fff;
-    opacity: .25 !important;
+    opacity: .6 !important;
     padding-bottom: 3px;
     letter-spacing: -3px;
     font-size: 0
+}
+
+.beian_div {
+    display: inline-block; 
+    margin: 0 auto;
 }
 
 .gwab,
@@ -8455,7 +8460,7 @@ i {
 }
 
 .gwab {
-    background: url(/img/beian.png) no-repeat;
+    background: url(/assets/img/beian.png) no-repeat;
     background-size: 12px 12px;
     background-position: 3px 2px;
     padding-left: 18px

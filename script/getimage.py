@@ -41,10 +41,10 @@ def download_image(api_url, save_dir, filename, session, agent, quality, max_siz
 
 
 if __name__ == "__main__":
-    api_url_pc = "https://t.alcy.cc/fj"
+    api_url_pc = "https://t.alcy.cc/ycy"
     api_url_m = "https://t.alcy.cc/aimp"
     # save_dir = "./img"  # 替换为你的保存目录
-    save_dir = "./assets/img"  # 替换为你的保存目录
+    save_dir = "../assets/img"  # 替换为你的保存目录
 
     # 设置移动端的User-Agent
     mobile_user_agent = "Mozilla/5.0 (iPhone; CPU iPhone OS 14_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Mobile/15E148 Safari/604.1"
